@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/9885dc85-9b54-4447-9a0d-71ecd8c587a4
 # AdVibe - Advertisement Platform Web Services - Full Stack
 
 This project is a full-stack web service platform for managing advertisements,
@@ -125,6 +127,13 @@ The API has several endpoints to manage ads, users, and images.
 ### Demo
 
 #### Demo Video:
+
+https://github.com/user-attachments/assets/7d22c345-439c-4d9f-bc3a-cf685e6b18f5
+
+https://github.com/user-attachments/assets/c1ef3216-3edc-4ff6-b541-64cae14ce619
+
+https://github.com/user-attachments/assets/e7935ff2-7b50-45a9-8cf8-ea00dcb4b786
+
 
 ***
 
