@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.idea/
+.vscode/
+target/
+out/
+dist/
+node_modules/
+
+*.iml
+
