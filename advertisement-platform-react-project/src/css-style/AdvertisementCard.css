@@ -1,0 +1,141 @@
+/* AdvertisementCard.css */
+.advertisement-card {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: box-shadow 0.3s ease-in-out;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.advertisement-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.advertisement-image-container {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+    border: 2px solid #ddd; /* Optional: adds a light border */
+}
+
+.advertisement-image {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+
+}
+
+.advertisement-actions {
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+}
+
+.advertisement-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.advertisement-title {
+    display: flex;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+    justify-content: left;
+    /*align-items: start;*/
+}
+
+#newAddButton {
+    margin-right: 120px;
+}
+
+.advertisement-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.advertisement-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.advertisement-meta span {
+    display: block;
+    margin-right: 20px;
+}
+
+.advertisement-date,
+.advertisement-email,
+.advertisement-id {
+    padding: 5px;
+    font-weight: 500;
+}
+
+.advertisement-id {
+    color: #0073e6; /* Blue color to highlight the ad ID */
+}
+
+@media (max-width: 600px) {
+    .advertisement-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advertisement-image {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .advertisement-meta {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.update-button, .delete-button, .newAd-button, .save-button, .cancel-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-button,
+.delete-button {
+    background-color: #dc3545;
+}
+
+.update-button:hover {
+    background-color: #0056b3;
+}
+
+.cancel-button:hover,
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.save-button {
+    background-color: green;
+}
+
+.save-button:hover {
+    background-color: darkgreen;
+}

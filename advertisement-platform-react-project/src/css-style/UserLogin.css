@@ -1,0 +1,51 @@
+/* Container Styling */
+.user-login {
+    display: flex;
+    justify-content: flex-end; /* Align to the right side */
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* Styling for the login/logout buttons */
+.login-container {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn, .logout-btn {
+    background-color: #007bff; /* Bootstrap blue for primary buttons */
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    /*margin-right: 10px;*/
+    transition: background-color 0.3s ease;
+
+    margin: 5px;
+
+}
+
+.login-btn:hover, .logout-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.login-btn:focus, .logout-btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.8); /* Focus shadow */
+}
+
+.logout-btn {
+    background-color: #dc3545; /* Red for logout */
+}
+
+.logout-btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Welcome message styling */
+.login-btn[disabled] {
+    background-color: #6c757d; /* Grey color if logged in */
+    cursor: not-allowed;
+}
