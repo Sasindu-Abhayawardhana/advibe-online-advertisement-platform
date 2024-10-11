@@ -1,4 +1,4 @@
-# AdVibe - Advertisement Platform Web Services - Frontend
+# AdVibe - Online Advertisement Platform - Frontend
 
 This project is the frontend of the AdVibe web platform, which allows users to manage advertisements, users, and related content. It interacts with the backend API to perform CRUD operations for advertisements and user data. The platform features user authentication via Google and state management across various components.
 ## Table of Contents
