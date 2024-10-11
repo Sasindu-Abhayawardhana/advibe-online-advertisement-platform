@@ -1,11 +1,11 @@
-# AdVibe - Advertisement Platform Web Services - Full Stack
+# AdVibe - Online Advertisement Platform - Full Stack Project
 
 This project is a full-stack web service platform for managing advertisements,
 users, and related content.
 It uses a layered architecture, with separate backend and frontend components
 handling core functionality.
 The backend manages business logic, database interactions, and API services,
-while the front end provides a user interface for managing advertisements and user data.
+while the front end provides a user interface for managing advertisements and user data. [Demo](#demo)
 
 ***
 
