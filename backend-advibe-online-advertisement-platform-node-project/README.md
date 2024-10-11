@@ -1,4 +1,4 @@
-# AdVibe - Advertisement Platform Web Services - Backend
+# AdVibe - Online Advertisement Platform - Backend
 
 This project is a web service platform for managing advertisements, users, and related 
 content. It uses a layered architecture, with controllers, services, and repositories handling core functionality.
