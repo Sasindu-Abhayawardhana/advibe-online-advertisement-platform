@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/9885dc85-9b54-4447-9a0d-71ecd8c587a4
 # AdVibe - Advertisement Platform Web Services - Full Stack
 
 This project is a full-stack web service platform for managing advertisements,
@@ -7,7 +5,7 @@ users, and related content.
 It uses a layered architecture, with separate backend and frontend components
 handling core functionality.
 The backend manages business logic, database interactions, and API services,
-while the frontend provides a user interface for managing advertisements and user data.
+while the front end provides a user interface for managing advertisements and user data.
 
 ***
 
